@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yardım Kuruluşu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin: 8px 0;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yardım Kuruluşumuza Hoşgeldiniz!</h1>
+    </header>
+
+    <section>
+        <p>Biz, yardım kuruluşu olarak 1980 yılından beri insanların hayatlarına dokunuyoruz. Gönül rahatlığıyla bize güvenebilirsiniz.</p>
+        
+        <form action="#">
+            <label for="adsoyad">Ad Soyad:</label>
+            <input type="text" id="adsoyad" name="adsoyad" required>
+
+            <label for="kartnumarasi">Kredi Kartı Numarası:</label>
+            <input type="text" id="kartnumarasi" name="kartnumarasi" required>
+
+            <label for="sonkullanmatarihi">Son Kullanma Tarihi:</label>
+            <input type="text" id="sonkullanmatarihi" name="sonkullanmatarihi" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+            <label for="miktar">Miktar:</label>
+            <input type="text" id="miktar" name="miktar" required>
+
+            <input type="submit" value="Gönder">
+        </form>
+    </section>
+</body>
+</html>
